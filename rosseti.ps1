@@ -11,7 +11,7 @@ param (
     [string]$logFile = "C:\infrabot\WebsiteCheckLog.txt" # Log file path # Time to start checking the website
 )
 
-# Function to send message to Telegram
+# Function to send message to Telegram 
 function Send-TelegramMessage {
     param (
         [string]$message,
