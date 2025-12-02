@@ -1,7 +1,7 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding("windows-1251")
 Import-Module 'Posh-SSH'
 
-# Данные Telegram API
+# Данные Telegram API 
 $botToken = "7797221192:AAGIut7mcvFTUxBC3JhwscgX1111"
 $apiURL = "https://api.telegram.org/bot$botToken"
 
